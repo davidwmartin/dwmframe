@@ -1,0 +1,24 @@
+{
+  "name": "dwmframe",
+  "authors": [
+    "David Martin <david.w.martin@me.com>"
+  ],
+  "description": "Basic CSS framework used for edG Design and my personal projects",
+  "main": "dwmframe.scss",
+  "keywords": [
+    "scss",
+    "css",
+    "css",
+    "framework"
+  ],
+  "license": "MIT",
+  "homepage": "http://edgdesign.co",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
