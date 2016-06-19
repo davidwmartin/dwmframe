@@ -1,0 +1,75 @@
+div[id^="attachment"]{
+	max-width: 100%;
+}
+
+/* == WordPress WYSIWYG Editor Styles == */
+
+.entry-content img {
+	margin: 0 0 $mds-1 0;
+	}
+.alignleft, img.alignleft {
+	margin-right: $mds-1;
+	display: inline;
+	float: left;
+	}
+.alignright, img.alignright {
+	margin-left: $mds-1;
+	display: inline;
+	float: right;
+	}
+.aligncenter, img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+	}
+.alignnone, img.alignnone {
+	/* not sure about this one */
+	}
+.wp-caption {
+	margin-bottom: $mds-1;
+	text-align: center;
+	padding-top: $mds-1-a;
+	img {
+		border: 0 none;
+		padding: 0;
+		margin: 0;
+	}
+	p.wp-caption-text {
+		line-height: 1.5;
+		font-size: 1rem;
+		margin: 0;
+	}
+}
+.wp-smiley {
+	margin: 0 !important;
+	max-height: $mds-1;
+	}
+blockquote{
+	&.left {
+		margin-right: $mds-1;
+		text-align: right;
+		margin-left: 0;
+		width: 33%;
+		float: left;
+	}
+	&.right {
+		margin-left: $mds-1;
+		text-align: left;
+		margin-right: 0;
+		width: 33%;
+		float: right;
+	}
+}
+
+.gallery {
+	dl {}
+	dd {}
+	dl a {}
+	dl img {}
+}
+.gallery-caption {}
+.size-full {}
+.size-large {}
+.size-medium {}
+.size-thumbnail {}

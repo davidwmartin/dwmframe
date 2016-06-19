@@ -1,0 +1,19 @@
+sup, sub{
+	font-style: italic;
+}
+
+blockquote, .blockquote{
+	margin:$mds-1 $mds-1-1;
+	padding:0 $mds-1;
+	border-left:4px solid $brand1;
+	cite{
+		display:block;
+		&::before{
+			content:"- ";
+		}
+	}
+}
+
+code{
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}

@@ -1,0 +1,53 @@
+//Size Classes
+.alpha-1{font-size:$mds-1-3}
+.beta-1{font-size: $mds-1-2}
+.gamma-1{font-size: $mds-1-1}
+.delta-1{font-size: $mds-1}
+.epsilon-1{font-size: $mds-1-a}
+.zeta-1{font-size:$mds-1-b}
+
+.alpha-2{font-size:$mds-2-3}
+.beta-2{font-size: $mds-2-2}
+.gamma-2{font-size: $mds-2-1}
+.delta-2{font-size: $mds-2}
+.epsilon-2{font-size: $mds-2-a}
+.zeta-2{font-size:$mds-2-b}
+
+//Basic Settings
+html{
+	font-size: 62.5%;
+}
+body{
+	font-size:$base1;
+	line-height:$base-line-height;
+	font-family: $base-font;
+	color: $content-color;
+}
+p, span, li, td, input, textarea, label, address, code, pre, dt, dd{
+	line-height:1.7;
+	font-size:$mds-1;
+}
+h1,h2,h3,h4,h5,h6, p{
+	margin:0 0 $mds-1;
+}
+h1{@extend .alpha-1;}
+h2{@extend .beta-1;}
+h3{@extend .gamma-1;}
+h4{@extend .delta-1;}
+h5{@extend .epsilon-2;}
+h6{@extend .zeta-2;}
+
+h1,h2,h3{
+	font-family: $header-font;
+}
+a{
+	color:$link-color;
+	font-size:inherit;
+	&:visited{
+		color:$link-visited;
+	}
+	&:hover{
+		color:$link-hover;
+	}
+	&:active{}
+}

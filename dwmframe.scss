@@ -1,0 +1,20 @@
+
+//Declare Variable Overrides Here:
+
+
+//Import Dependencies
+// @import "normalize.scss";
+
+
+//Import Core Framework Files Here
+@import "variables";
+
+@import "core/modular_scale";
+@import "core/grid";
+@import "core/defaults";
+@import "core/typography";
+@import "core/base_ui_elements";
+
+//Modules -- Uncomment to use:
+@import "modules/writing";
+// @import "modules/wordpress";

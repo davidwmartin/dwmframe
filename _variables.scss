@@ -1,0 +1,36 @@
+///////Colors, Branding
+//Theme Colors
+$brand1:        	red !default;
+$brand2:        	blue !default;
+
+//Text Colors
+$content-color: 	rgb(20,20,20) !default; 
+$content-light:		rgb(240,240,240) !default; 
+
+//UI Element Colors
+$bg-col-1:			rgb(220,220,220) !default;
+$bg-col-2:			rgb(45,45,45) !default;
+$btn-color:     	$brand1 !default;
+$btn-text:			$content-light !default;
+$link-color:    	$brand1 !default;
+$link-hover:    	darken($link-color, 15%) !default;
+$link-visited:  	lighten($link-color, 15%) !default;
+
+
+//Base Typography Variables
+$base-font:        	"helvetica", "arial", sans-serif !default;
+$header-font:      	$base-font!default;
+$base-line-height: 	1.4 !default;
+
+//Modular Scale Variables
+$base1: 1.8rem !default;
+$base2: $base-line-height * $base1 !default;
+
+$ratio1: 1.618 !default; //Golden Mean
+$ratio2: 1.5 !default; //Major Third
+
+//Grid Variables
+$content-max:	1280px !default;
+
+$palm-end:  	499px !default;
+$tablet-end:	849px !default;

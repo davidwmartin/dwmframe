@@ -1,0 +1,75 @@
+//Buttons
+@mixin btn--base{
+	display:inline-block;
+	cursor:pointer;
+	background-color: $btn-color;
+	color: $btn-text;
+}
+
+.btn{
+	@include btn--base;
+	padding:$mds-1-a $mds-1;
+	
+}
+
+.btn--small{
+	@include btn--base;
+	padding:$mds-1-b $mds-1-a;
+}
+
+.btn--large{
+	@include btn--base;
+	padding:$mds-1 $mds-1-2;
+}
+
+//Navigation
+nav{
+	ul{
+		list-style:none;
+		padding-left:0;
+		li{
+			display:inline-block;
+			margin-left:$mds-1;
+			&:first-child{margin-left:0;}
+		}
+	}
+	&.vertical-nav{
+		li{display:block;}
+	}
+	&.foot-nav{
+		li{font-size:$mds-1-a;}
+	}
+}
+
+//Forms
+fieldset{
+	border:none;
+	padding:0;
+}
+input, textarea{
+	border:2px solid rgb(200,200,200);
+	max-width:100%;
+	&:focus{
+		outline: none;
+		border-color: $brand2;
+	}
+}
+input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel], textarea{
+	-webkit-appearance: none; -moz-appearance: none;
+	// border-radius:0;
+}
+input[type='submit']{
+	@extend .btn--small;
+	border:none;
+}
+
+//Tables
+td{padding:$mds-1-b;}
+
+//Lists 
+ol{
+	ol{
+		list-style-type: lower-alpha;
+		ol{list-style-type: lower-roman;}
+	}
+}
