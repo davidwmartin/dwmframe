@@ -4,6 +4,7 @@
     "David Martin <david.w.martin@me.com>"
   ],
   "description": "Basic CSS framework used for edG Design and my personal projects",
+  "main":"dwmframe.scss",
   "keywords": [
     "scss",
     "css",
