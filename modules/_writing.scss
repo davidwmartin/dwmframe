@@ -1,12 +1,13 @@
 sup, sub{
 	font-style: italic;
+	font-size: $mds-1-a;
 }
 
 blockquote, .blockquote{
 	margin:$mds-1 $mds-1-1;
 	padding:0 $mds-1;
-	border-left:4px solid $brand1;
-	cite{
+	border-left:4px solid $brand-1;
+	cite, .cite{
 		display:block;
 		&::before{
 			content:"- ";
@@ -16,4 +17,6 @@ blockquote, .blockquote{
 
 code{
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	padding:1em;
+	background:$grey-1;
 }

@@ -1,0 +1,15 @@
+//Navigation -- defaults to a horizontal orientation, apply vertical-nav class if necessary
+nav{
+	ul{
+		list-style:none;
+		padding-left:0;
+		li{
+			display:inline-block;
+			margin-left:$mds-1;
+			&:first-child{margin-left:0;}
+		}
+	}
+	&.vertical-nav{
+		li{display:block;}
+	}
+}

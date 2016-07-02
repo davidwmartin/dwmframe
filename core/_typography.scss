@@ -18,18 +18,16 @@ html{
 	font-size: 62.5%;
 }
 body{
-	font-size:$base1;
+	font-size:$mds-1;
 	line-height:$base-line-height;
 	font-family: $base-font;
 	color: $content-color;
 }
-p, span, li, td, input, textarea, label, address, code, pre, dt, dd{
-	line-height:1.7;
-	font-size:$mds-1;
-}
 h1,h2,h3,h4,h5,h6, p{
 	margin:0 0 $mds-1;
 }
+
+//Headers
 h1{@extend .alpha-1;}
 h2{@extend .beta-1;}
 h3{@extend .gamma-1;}
@@ -40,8 +38,13 @@ h6{@extend .zeta-2;}
 h1,h2,h3{
 	font-family: $header-font;
 }
+
+//Copy
+p, span, li, td, input, textarea, label, address, code, pre, dt, dd{
+}
 a{
 	color:$link-color;
+	cursor:pointer;
 	font-size:inherit;
 	&:visited{
 		color:$link-visited;
@@ -50,4 +53,15 @@ a{
 		color:$link-hover;
 	}
 	&:active{}
+}
+span{
+	font-size: inherit;
+}
+
+// lists
+ol{
+	ol{
+		list-style-type: lower-alpha;
+		ol{list-style-type: lower-roman;}
+	}
 }

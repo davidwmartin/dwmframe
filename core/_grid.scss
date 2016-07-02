@@ -1,3 +1,4 @@
+// Grid wrapper class
 .gw{
 	width:100%;
 	max-width:$content-max;
@@ -5,65 +6,67 @@
 	padding:0 $mds-1-a;
 }
 
-.g[class*="col-"]{
+//Grid Element Class
+.g{
 	display:inline-block;
 	vertical-align:top;
 	padding:0 $mds-1-a;
-}
-.g[class*="col-"] .g[class*="col-"]{
-	padding:0 $mds-1-a;
+	.g{
+		padding:0 $mds-1-a;
+	}
 }
 
-
-.col-1-1{
+//Full-sized grid
+.desk-1-1{
 	width:100%;
 }
-.col-2-3{
+.desk-2-3{
 	width:66.666%;
 }
-.col-1-3{
+.desk-1-3{
 	width:33.333%;
 }
-.col-1-6{
+.desk-1-6{
 	width:16.666%;
 }
-.col-5-6{
+.desk-5-6{
 	width:83.333%;
 }
 
-.col-3-4{
+.desk-3-4{
 	width:75%;
 }
-.col-1-2{
+.desk-1-2{
 	width:50%;
 }
-.col-1-4{
+.desk-1-4{
 	width:25%;
 }
-.col-1-8{
+.desk-1-8{
 	width:12.5%;
 }
-.col-3-8{
+.desk-3-8{
 	width:37.5%;
 }
-.col-5-8{
+.desk-5-8{
 	width:62.5%;
 }
 
-.col-1-5{
+.desk-1-5{
 	width:20%;
 }
-.col-2-5{
+.desk-2-5{
 	width:40%;
 }
-.col-3-5{
+.desk-3-5{
 	width:60%;
 }
-.col-4-5{
+.desk-4-5{
 	width:80%;
 }
 
-@media screen AND (max-width:$tablet-end){
+//Tablet (mid-sized grid)
+@media screen AND (max-width:$tab-end){
 	.tab-1-1{
 		width:100%;
 		padding-left:$mds-1;
@@ -100,14 +103,15 @@
 		width:62.5%;
 	}
 }
+//Palm / small grid
 @media screen AND (min-width:$palm-end + 1){
-	.mobile-only{
+	.palm-only{
 		display:none !important;
 	}
 }
 @media screen AND (max-width:$palm-end){
 	
-	.no-mobile{
+	.no-palm{
 		display:none !important;
 	}
 

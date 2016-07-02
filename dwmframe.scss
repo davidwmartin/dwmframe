@@ -11,9 +11,12 @@
 
 @import "core/modular_scale";
 @import "core/grid";
-@import "core/defaults";
+@import "core/layout-defaults";
 @import "core/typography";
-@import "core/base_ui_elements";
+
+@import "core/buttons";
+@import "core/forms";
+@import "core/nav";
 
 //Modules -- Uncomment to use:
 @import "modules/writing";

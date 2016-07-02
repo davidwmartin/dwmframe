@@ -1,0 +1,30 @@
+/////Buttons
+@mixin btn-base{
+	display:inline-block;
+	cursor:pointer;
+	// background-color: $btn-color;
+	// color: $btn-text;
+}
+
+.btn{
+	@include btn-base;
+	padding:$mds-1-a $mds-1;
+	
+}
+.btn__small{
+	@include btn-base;
+	padding:$mds-1-b $mds-1-a;
+}
+.btn__large{
+	@include btn-base;
+	padding:$mds-1 $mds-1-2;
+}
+
+.btn__positive{
+}
+
+.btn__neutral{
+}
+
+.btn__negative{
+}
