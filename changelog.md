@@ -1,6 +1,11 @@
 # Changelog
 
 ## Unrealeased
+- None
+
+--- 
+
+## [2.0.0] 7/5/16
 
 ### Changed
 - Split up base_ui_components partial into forms, buttons, nav
@@ -8,13 +13,11 @@
 - Modified variable names -- enforce dashes before numbers (e.g. $brand-1 instead of $brand1)
 - Minor typography adjustments
 - Removed some button styles, btn classes now BEM friendly.
+- renamed defaults partial to layout-defaults
+- Grid is now mobile-first
 
 ### Added
 - changelog.md
-
---- 
-
-<!-- ## [2.0.0] -->
 
 ## [1.1.0] - 6/19/16 16:13:50 PDT
 Bower repo setup
