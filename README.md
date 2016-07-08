@@ -51,18 +51,26 @@ For more information on modular scales, and a handy calculator, go to [modularsc
 ## TODO 
 
 ### Misc
-1. Strategy for importing directly from local project's scss manifest, to allow overrides of specific framework files.
-2. Flesh out button styles
+- Strategy for importing directly from local project's scss manifest, to allow overrides of specific framework files.
+- Flesh out button styles
+- Remove button variables?
+- Add Normalize as bower dependency
 
 ### Modular Scale
-1. Function for calculating scale degrees
-2. "relative" modular scale if possible -- so that I can, for example, set an element to be one scale degree larger / smaller than it's parent
+- Function for calculating scale degrees
+- "relative" modular scale if possible -- so that I can, for example, set an element to be one scale degree larger / smaller than it's parent
 
 ### Grid
-1. Grid mixins
-2. Desktop first version?
-3. Padding variables
-4. Auto-calculated grid widths, so I could make new proportions on the fly, just by using the class 
+- Grid mixins
+- Desktop first version?
+- Padding variables
+- Auto-calculated grid widths, so I could make new proportions on the fly, just by using the class
+- add 1/5 to tablet size? mobile?
+- ADD NOTE TO INSTRUCTIONS ABOUT WHITESPACE / MARGIN LEFT ISSUE FOR INLINE BLOCK ELEMENTS
+- name breakpoint variables by start instead of end? (tab-start, desk-start)
+
+### Forms
+- .form-element container styles? 
 
 
 ### Typography
