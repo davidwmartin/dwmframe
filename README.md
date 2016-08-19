@@ -55,6 +55,9 @@ For more information on modular scales, and a handy calculator, go to [modularsc
 - Flesh out button styles
 - Remove button variables?
 - Add Normalize as bower dependency
+- Update link visited / hover color strategy, variables
+- "text-decoration:none" on buttons
+- add normalize-scss as a dependency
 
 ### Modular Scale
 - Function for calculating scale degrees
