@@ -79,3 +79,6 @@ For more information on modular scales, and a handy calculator, go to [modularsc
 ### Typography
 1. Better defaults for mobile typography (mainly size)
 -- LOOK INTO WHERE I REMOVED LINE HEIGHT AND FONT SIZE FROM COPY ELEMENTS...
+
+### Buttons
+- variables for color, padding, etc for each of the 3 button sizes & types?
