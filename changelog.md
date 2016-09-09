@@ -4,7 +4,7 @@
 - None
 
 --- 
-## [2.0.2] 9/8/16
+## [2.1.0] 9/8/16
 - Added 1/5ths to palm grid
 - Added 1/7ths to tab and desk grid
 
