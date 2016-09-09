@@ -41,6 +41,18 @@
 .palm-1-4{
 	width:25%;
 }
+.palm-1-5{
+	width:20%;
+}
+.palm-2-5{
+	width:40%;
+}
+.palm-3-5{
+	width:60%;
+}
+.palm-4-5{
+	width:80%;
+}
 
 //Tablet (mid-sized grid)
 @media screen AND (min-width:$palm-end + 1){
@@ -95,6 +107,25 @@
 	.tab-5-8{
 		width:62.5%;
 	}
+
+	.tab-1-7{
+		width:14.285%;
+	}
+	.tab-2-7{
+		width:28.571%;
+	}
+	.tab-3-7{
+		width:42.857%;
+	}
+	.tab-4-7{
+		width:57.142%;
+	}
+	.tab-5-7{
+		width:71.428%;
+	}
+	.tab-6-7{
+		width:85.714%;
+	}
 }
 
 @media screen and (min-width: $tab-end+1){
@@ -145,5 +176,24 @@
 	}
 	.desk-4-5{
 		width:80%;
+	}
+
+	.desk-1-7{
+		width:14.285%;
+	}
+	.desk-2-7{
+		width:28.571%;
+	}
+	.desk-3-7{
+		width:42.857%;
+	}
+	.desk-4-7{
+		width:57.142%;
+	}
+	.desk-5-7{
+		width:71.428%;
+	}
+	.desk-6-7{
+		width:85.714%;
 	}
 }
