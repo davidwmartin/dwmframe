@@ -52,7 +52,7 @@ For more information on modular scales, and a handy calculator, go to [modularsc
 
 ### Misc
 - Strategy for importing directly from local project's scss manifest, to allow overrides of specific framework files.
-- Flesh out button styles
+- Flesh out button styles!!!!
 - Remove button variables?
 - Add Normalize as bower dependency
 - Update link visited / hover color strategy, variables

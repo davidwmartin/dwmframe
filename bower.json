@@ -4,7 +4,7 @@
     "David Martin <david.w.martin@me.com>"
   ],
   "description": "Basic CSS framework used for edG Design and my personal projects",
-  "main":"dwmframe.scss",
+  "main": "dwmframe.scss",
   "keywords": [
     "scss",
     "css",
@@ -20,5 +20,8 @@
     "app/bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "normalize-scss": "^3.0.3"
+  }
 }
