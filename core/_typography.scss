@@ -17,10 +17,8 @@
 html{
 	font-size: 62.5%;
 }
-* {
-	line-height:$base-line-height;
-}
 body{
+	line-height:$base-line-height;
 	font-size:$mds-1;
 	font-family: $base-font;
 	color: $content-color;
