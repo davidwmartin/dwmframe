@@ -1,7 +1,16 @@
 # Changelog
 
-## Unrealeased
-- None
+## [2.3.0] 6/5/17
+- added normalize-scss as npm dependency
+- updated readme to reflect move towards using npm instead of bower
+- updated line-height settings (again)
+- removed $base-line-height variable
+
+## [2.2.2]
+- reverted line-height settings
+
+## [2.2.1]
+- changed line-height settings
 
 ## [2.2.0] 1/26/17
 - added [normalize-scss](https://github.com/JohnAlbin/normalize-scss) as a dependency

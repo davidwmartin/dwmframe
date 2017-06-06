@@ -17,10 +17,11 @@
 html{
 	font-size: 62.5%;
 }
+
 body{
-	line-height:$base-line-height;
 	font-size:$mds-1;
 	font-family: $base-font;
+	line-height:1.7;
 	color: $content-color;
 }
 h1,h2,h3,h4,h5,h6, p{
@@ -37,6 +38,7 @@ h6{@extend .zeta-2;}
 
 h1,h2,h3{
 	font-family: $header-font;
+	line-height:1.3;
 }
 
 //Copy

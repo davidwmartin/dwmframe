@@ -12,10 +12,12 @@ Everything is imported via the dwmframe.scss manifest file. Style partials in /c
 ## Usage
 
 ### Installation
-Install with Bower. Not currently registered with Bower, so: 
-~~~~
-bower install git@github.com:davidwmartin/dwmframe.git
-~~~~
+Install with NPM. Not currently registered, so: 
+
+	npm install --save https://github.com/davidwmartin/dwmframe.git
+
+You can also use bower (for now), but I am moving away from using bower to using NPM for all frontend dependencies, so that's the preferred (eventually only) method. 
+
 
 ### Grid
 Mobile-first, inline-block based grid. There are three grid sizes, built around two breakpoints. Grid classes can be found in /core/_grid.scss, breakpoint variables & defaults in _variables.scss. Breakpoint variables define the upper-limit of a grid prefix.
