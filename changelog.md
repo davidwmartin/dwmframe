@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.3.1] 6/6/17
+- fixed bad formatting in package.json
+
 ## [2.3.0] 6/5/17
 - added normalize-scss as npm dependency
 - updated readme to reflect move towards using npm instead of bower
