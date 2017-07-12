@@ -1,6 +1,6 @@
 {
   "name": "dwmframe",
-  "version": "2.2.0",
+  "version": "2.3.2",
   "description": "super basic scss framework",
   "main": "dwmframe.scss",
   "scripts": {
@@ -9,6 +9,6 @@
   "dependencies": {
   	"normalize-scss": "^6.0.0"
   },
-  "author": "David W Martin",
+  "author": "David W Martin (edgdesign.co)",
   "license": "GPL-3.0"
 }

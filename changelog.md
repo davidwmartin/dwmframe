@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.3.2] 7/12/17
+- fixed style bug w/ old .vertical-nav utility class
+
 ## [2.3.1] 6/6/17
 - fixed bad formatting in package.json
 

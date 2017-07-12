@@ -10,6 +10,9 @@ nav{
 		}
 	}
 	&.vertical-nav{
-		li{display:block;}
+		li{
+			display:block;
+			margin-left:0;
+		}
 	}
 }
