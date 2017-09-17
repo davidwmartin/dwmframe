@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.4] 9/17/17
+- better responsive typography
+
 ## [2.3.2] 7/12/17
 - fixed style bug w/ old .vertical-nav utility class
 
