@@ -1,17 +1,32 @@
-//Size Classes
-.alpha-1{font-size:$mds-1-3}
-.beta-1{font-size: $mds-1-2}
-.gamma-1{font-size: $mds-1-1}
-.delta-1{font-size: $mds-1}
-.epsilon-1{font-size: $mds-1-a}
-.zeta-1{font-size:$mds-1-b}
 
-.alpha-2{font-size:$mds-2-3}
-.beta-2{font-size: $mds-2-2}
-.gamma-2{font-size: $mds-2-1}
-.delta-2{font-size: $mds-2}
-.epsilon-2{font-size: $mds-2-a}
-.zeta-2{font-size:$mds-2-b}
+// TODO -- explore CSS variables for easier switching of bases, font-sizes
+
+//// Size Classes & vertical rhythm
+// small screens
+.alpha-1, h1 		{font-size: $mds-1-3}
+.beta-1, h2 		{font-size: $mds-1-2}
+.gamma-1, h3 		{font-size: $mds-1-1}
+.delta-1, h4, body {font-size: $mds-1}
+.epsilon-1, h5 	{font-size: $mds-1-a}
+.zeta-1, h6 		{font-size: $mds-1-b}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0 0 $mds-1;
+}
+
+// larger screens
+@media screen and (min-width:$palm-end+1){
+	.alpha-2, h1 	{font-size: $mds-2-3}
+	.beta-2, h2 	{font-size: $mds-2-2}
+	.gamma-2, h3 	{font-size: $mds-2-1}
+	.delta-2, h4, body {font-size: $mds-2}
+	.epsilon-2, h5 {font-size: $mds-2-a}
+	.zeta-2, h6 	{font-size: $mds-2-b}
+
+	h1,h2,h3,h4,h5,h6, p{
+		margin:0 0 $mds-2;
+	}
+}
 
 //Basic Settings
 html{
@@ -19,35 +34,28 @@ html{
 }
 
 body{
-	font-size:$mds-1;
 	font-family: $base-font;
 	line-height:1.7;
 	color: $content-color;
 }
-h1,h2,h3,h4,h5,h6, p{
-	margin:0 0 $mds-1;
-}
 
-//Headers
-h1{@extend .alpha-1;}
-h2{@extend .beta-1;}
-h3{@extend .gamma-1;}
-h4{@extend .delta-1;}
-h5{@extend .epsilon-2;}
-h6{@extend .zeta-2;}
-
+// primary headers
 h1,h2,h3{
 	font-family: $header-font;
 	line-height:1.3;
 }
 
-//Copy
-p, span, li, td, input, textarea, label, address, code, pre, dt, dd{
+// text elements
+p, span, li, td, input, textarea, label, address, code, pre, dt, dd, button{
+	font-family: inherit;
 }
+
+// links
 a{
 	color:$link-color;
 	cursor:pointer;
 	font-size:inherit;
+	font-family: inherit;
 	&:visited{
 		color:$link-visited;
 	}
