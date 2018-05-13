@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.4.1] 5/12/18
+- add normalize import path
+
 ## [2.4] 9/17/17
 - better responsive typography
 
